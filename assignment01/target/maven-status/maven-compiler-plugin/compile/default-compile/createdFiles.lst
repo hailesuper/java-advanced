@@ -1,0 +1,5 @@
+com\hai\advanced\entity\Group.class
+com\hai\advanced\App.class
+com\hai\advanced\exercise1.class
+com\hai\advanced\utils\HibernateUtils.class
+com\hai\advanced\repository\DepartmentRepository.class
