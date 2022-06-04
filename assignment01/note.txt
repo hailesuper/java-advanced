@@ -1,0 +1,14 @@
+Exercise 1:
+option5 khi update thì create_date ko tự vào?
+option6 bị lỗi transactionactive
+
+Exercise 2:
+Map là map database lên java hay ngược lại?
+Ví dụ ex2. account. ví dụ khi có 2 trường firstname lastName và database chỉ có fullName. Trường hợp 2: khi database có first_name và last_name nhưng java chỉ có fullName
+Cách map để có thể chạy 2 chiều READ, CREATE
+
+Các field quan hệ naming: ví dụ trong Class CompanyGroup: private Account creator?
+
+Map enum: SCRUM_MASTER and Srum Master
+
+Dùng catalog trường hợp 2 database là như thế nào?
