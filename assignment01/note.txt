@@ -12,3 +12,17 @@ Các field quan hệ naming: ví dụ trong Class CompanyGroup: private Account 
 Map enum: SCRUM_MASTER and Srum Master
 
 Dùng catalog trường hợp 2 database là như thế nào?
+
+6/10/2022
+a3_ex2
+1. Lỗi: cách sửa
+Exception in thread "main" org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationException: Could not determine recommended JdbcType for `com.hai.advanced.a1ex2_a2ex1_a3ex2.entity.Account`
+	at org.hibernate.type.descriptor.java.spi.UnknownBasicJavaType.getRecommendedJdbcType(UnknownBasicJavaType.java:37)
+	at org.hibernate.boot.model.process.internal.InferredBasicValueResolver.from(InferredBasicValueResolver.java:182)
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:471)
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:314)
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:304)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.lambda$processValueResolvers$4(InFlightMetadataCollectorImpl.java:1760)
+
+2. Insert new account?
+3. CRUD xử lí getPositionbyType => insert theo Type

@@ -2,6 +2,7 @@ package com.hai.advanced.a1ex1.repository;
 
 import com.hai.advanced.a1ex1.entity.Group;
 import com.hai.advanced.a1ex1.utils.HibernateUtils;
+import org.hibernate.Session;
 
 import java.util.List;
 
@@ -71,10 +72,12 @@ public class DepartmentRepository {
     }
 
 
+    Session session;
     public boolean updateGroup(int groupID, String newGroupName) {
-        try (var session = hibernateUtils.getSession()) { // try with resource Java 8
-            session.beginTransaction(); // start transaction
+        try { // try with resource Java 8
             var newGroup = getGroupById(groupID);
+            session = hibernateUtils.getSession();
+            session.beginTransaction(); // start transaction
             newGroup.setGroupName(newGroupName);
             session.merge(newGroup);
             session.getTransaction().commit(); // commit transaction
@@ -82,6 +85,8 @@ public class DepartmentRepository {
         } catch (Exception e) {
             e.printStackTrace();
             return false;
+        } finally {
+            session.close();
         }
     }
 

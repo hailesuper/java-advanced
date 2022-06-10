@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hai.advanced.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hai.advanced.AppTest" time="0.047" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\haiva\.jdks\corretto-17.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\haiva\AppData\Local\Temp\surefire8057663740711405686\surefirebooter13802819893663042452.jar C:\Users\haiva\AppData\Local\Temp\surefire8057663740711405686 2022-06-04T20-46-51_769-jvmRun1 surefire7849036990388254799tmp surefire_015713618317231946356tmp"/>
+    <property name="sun.java.command" value="C:\Users\haiva\AppData\Local\Temp\surefire4786453588273131115\surefirebooter4560310207045634872.jar C:\Users\haiva\AppData\Local\Temp\surefire4786453588273131115 2022-06-10T09-18-07_566-jvmRun1 surefire15276637549319811538tmp surefire_017503946655942498619tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\haiva\OneDrive\Desktop\VTI\java-advanced\assignments\assignment01\target\test-classes;C:\Users\haiva\OneDrive\Desktop\VTI\java-advanced\assignments\assignment01\target\classes;C:\Users\haiva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\haiva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\haiva\.m2\repository\org\hibernate\orm\hibernate-core\6.0.2.Final\hibernate-core-6.0.2.Final.jar;C:\Users\haiva\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.0.0\jakarta.persistence-api-3.0.0.jar;C:\Users\haiva\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.0\jakarta.transaction-api-2.0.0.jar;C:\Users\haiva\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\haiva\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.1.Final\hibernate-commons-annotations-6.0.1.Final.jar;C:\Users\haiva\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\haiva\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\haiva\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\haiva\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar;C:\Users\haiva\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\haiva\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\haiva\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\haiva\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\haiva\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\haiva\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\haiva\.m2\repository\org\antlr\antlr4-runtime\4.10\antlr4-runtime-4.10.jar;C:\Users\haiva\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\haiva\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\haiva\AppData\Local\Temp\surefire8057663740711405686\surefirebooter13802819893663042452.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\haiva\AppData\Local\Temp\surefire4786453588273131115\surefirebooter4560310207045634872.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+6-LTS"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.hai.advanced.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.hai.advanced.AppTest" time="0"/>
 </testsuite>

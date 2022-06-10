@@ -21,7 +21,7 @@ public class exercise1 {
                 case 3 -> System.out.println(departmentRepository.getGroupById(2));
                 case 4 -> System.out.println(departmentRepository.getGroupByName("Dynamic"));
                 case 5 -> System.out.println(departmentRepository.updateGroup(new Group(1, "newDynamic")));
-                case 6 -> System.out.println(departmentRepository.updateGroup(2, "newYakiniku"));
+                case 6 -> System.out.println(departmentRepository.updateGroup(2, "newYakiniku2"));
                 case 7 -> System.out.println(departmentRepository.deleteGroup(new Group(2)));
                 case 8 -> System.out.println(departmentRepository.deleteGroup(2));
                 case 9 -> System.out.println(departmentRepository.isGroupExistsById(1));
