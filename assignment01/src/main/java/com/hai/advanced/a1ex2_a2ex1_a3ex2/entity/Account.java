@@ -147,7 +147,4 @@ public class Account {
         return companyGroups;
     }
 
-    public void setCompanyGroups(List<CompanyGroup> companyGroups) {
-        this.companyGroups = companyGroups;
-    }
 }

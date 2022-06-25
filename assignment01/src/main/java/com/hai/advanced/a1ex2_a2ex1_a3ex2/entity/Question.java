@@ -19,9 +19,9 @@ public class Question {
     @ManyToOne
     private QuestionCategory questionCategory;
 
-    private QuestionType questionType;
+//    private QuestionType questionType;
 
-    private Account creator;
+//    private Account creator;
 
     @Column(name = "create_date")
     @CreationTimestamp

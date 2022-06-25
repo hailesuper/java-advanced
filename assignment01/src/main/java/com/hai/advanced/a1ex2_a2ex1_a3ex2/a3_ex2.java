@@ -1,9 +1,6 @@
 package com.hai.advanced.a1ex2_a2ex1_a3ex2;
 
-import com.hai.advanced.a1ex2_a2ex1_a3ex2.entity.*;
 import com.hai.advanced.a1ex2_a2ex1_a3ex2.repository.*;
-import com.hai.advanced.a1ex2_a2ex1_a3ex2.utils.HibernateUtils;
-import org.hibernate.Session;
 
 import java.util.Scanner;
 

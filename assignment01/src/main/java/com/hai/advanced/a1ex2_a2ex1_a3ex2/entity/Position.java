@@ -29,7 +29,7 @@ public class Position {
         this.positionType = positionType;
     }
 
-    // MAPPING
+//     MAPPING
     @OneToMany(mappedBy = "position")
     private List<Account> accounts;
 
