@@ -4,6 +4,8 @@ import com.hai.learning.assignment06.entity.Department;
 import com.hai.learning.assignment06.utils.HibernateUtils;
 
 import jakarta.persistence.criteria.*;
+import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import jakarta.persistence.*;
@@ -11,11 +13,8 @@ import java.util.List;
 
 @Repository
 public class DepartmentRepository implements IDepartmentRepository {
-    private final HibernateUtils hibernateUtils;
-
-    public DepartmentRepository() {
-        this.hibernateUtils = HibernateUtils.getInstance();
-    }
+    @Autowired
+    private HibernateUtils hibernateUtils;
 
 //    public List<Department> getAllDepartments() {
 //        try (var session = hibernateUtils.getSession()) {
@@ -53,6 +52,19 @@ public class DepartmentRepository implements IDepartmentRepository {
             return departments;
         }
     }
+
+//    @Override
+//    public List<Department> getAllDepartments() {
+//        try (var session = hibernateUtils.getSession()) {
+//            CriteriaBuilder cb = session.getCriteriaBuilder();
+//            CriteriaQuery<Department> cr = cb.createQuery(Department.class);
+//            Root<Department> root = cr.from(Department.class);
+//            cr.select(root);
+//
+//            List<Department> results = session.createQuery(cr).getResultList();
+//            return results;
+//        }
+//    }
 
     @Override
     public Department getDepartmentById(int id) {

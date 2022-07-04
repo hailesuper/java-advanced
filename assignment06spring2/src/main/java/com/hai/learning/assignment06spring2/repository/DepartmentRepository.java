@@ -8,6 +8,7 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository
@@ -29,9 +30,10 @@ public class DepartmentRepository implements IDepartmentRepository {
 //    }
 
     @Override
+    @Transactional
     public List<Department> getAllDepartments() {
         try (var session = hibernateUtils.getSession()) {
-            session.beginTransaction();
+//            session.beginTransaction();
 
             CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
             CriteriaQuery<Department> criteriaQuery = criteriaBuilder.createQuery(Department.class);
@@ -40,7 +42,7 @@ public class DepartmentRepository implements IDepartmentRepository {
 
             List<Department> departments = session.createQuery(criteriaQuery).getResultList();
 
-            session.getTransaction().commit();
+//            session.getTransaction().commit();
             return departments;
         }
     }

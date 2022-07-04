@@ -1,286 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="hai_java_advanced_a3a4@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.39">
-    <root id="1">
-      <DefaultCasing>lower/lower</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
-      <Grants>|root||hbstudent|localhost|ALTER|G
-|root||maven|localhost|ALTER|G
-|root||root|localhost|ALTER|G
-|root||springstudent|localhost|ALTER|G
-|root||hbstudent|localhost|ALTER ROUTINE|G
-|root||maven|localhost|ALTER ROUTINE|G
-|root||root|localhost|ALTER ROUTINE|G
-|root||springstudent|localhost|ALTER ROUTINE|G
-|root||hbstudent|localhost|APPLICATION_PASSWORD_ADMIN|G
-|root||maven|localhost|APPLICATION_PASSWORD_ADMIN|G
-|root||root|localhost|APPLICATION_PASSWORD_ADMIN|G
-|root||springstudent|localhost|APPLICATION_PASSWORD_ADMIN|G
-|root||hbstudent|localhost|AUDIT_ABORT_EXEMPT|G
-|root||maven|localhost|AUDIT_ABORT_EXEMPT|G
-|root||mysql.infoschema|localhost|AUDIT_ABORT_EXEMPT|G
-|root||mysql.session|localhost|AUDIT_ABORT_EXEMPT|G
-|root||mysql.sys|localhost|AUDIT_ABORT_EXEMPT|G
-|root||root|localhost|AUDIT_ABORT_EXEMPT|G
-|root||springstudent|localhost|AUDIT_ABORT_EXEMPT|G
-|root||hbstudent|localhost|AUDIT_ADMIN|G
-|root||maven|localhost|AUDIT_ADMIN|G
-|root||root|localhost|AUDIT_ADMIN|G
-|root||springstudent|localhost|AUDIT_ADMIN|G
-|root||hbstudent|localhost|AUTHENTICATION_POLICY_ADMIN|G
-|root||maven|localhost|AUTHENTICATION_POLICY_ADMIN|G
-|root||root|localhost|AUTHENTICATION_POLICY_ADMIN|G
-|root||springstudent|localhost|AUTHENTICATION_POLICY_ADMIN|G
-|root||hbstudent|localhost|BACKUP_ADMIN|G
-|root||maven|localhost|BACKUP_ADMIN|G
-|root||mysql.session|localhost|BACKUP_ADMIN|G
-|root||root|localhost|BACKUP_ADMIN|G
-|root||springstudent|localhost|BACKUP_ADMIN|G
-|root||hbstudent|localhost|BINLOG_ADMIN|G
-|root||maven|localhost|BINLOG_ADMIN|G
-|root||root|localhost|BINLOG_ADMIN|G
-|root||springstudent|localhost|BINLOG_ADMIN|G
-|root||hbstudent|localhost|BINLOG_ENCRYPTION_ADMIN|G
-|root||maven|localhost|BINLOG_ENCRYPTION_ADMIN|G
-|root||root|localhost|BINLOG_ENCRYPTION_ADMIN|G
-|root||springstudent|localhost|BINLOG_ENCRYPTION_ADMIN|G
-|root||hbstudent|localhost|CLONE_ADMIN|G
-|root||maven|localhost|CLONE_ADMIN|G
-|root||mysql.session|localhost|CLONE_ADMIN|G
-|root||root|localhost|CLONE_ADMIN|G
-|root||springstudent|localhost|CLONE_ADMIN|G
-|root||hbstudent|localhost|CONNECTION_ADMIN|G
-|root||maven|localhost|CONNECTION_ADMIN|G
-|root||mysql.session|localhost|CONNECTION_ADMIN|G
-|root||root|localhost|CONNECTION_ADMIN|G
-|root||springstudent|localhost|CONNECTION_ADMIN|G
-|root||hbstudent|localhost|CREATE|G
-|root||maven|localhost|CREATE|G
-|root||root|localhost|CREATE|G
-|root||springstudent|localhost|CREATE|G
-|root||hbstudent|localhost|CREATE ROLE|G
-|root||maven|localhost|CREATE ROLE|G
-|root||root|localhost|CREATE ROLE|G
-|root||springstudent|localhost|CREATE ROLE|G
-|root||hbstudent|localhost|CREATE ROUTINE|G
-|root||maven|localhost|CREATE ROUTINE|G
-|root||root|localhost|CREATE ROUTINE|G
-|root||springstudent|localhost|CREATE ROUTINE|G
-|root||hbstudent|localhost|CREATE TABLESPACE|G
-|root||maven|localhost|CREATE TABLESPACE|G
-|root||root|localhost|CREATE TABLESPACE|G
-|root||springstudent|localhost|CREATE TABLESPACE|G
-|root||hbstudent|localhost|CREATE TEMPORARY TABLES|G
-|root||maven|localhost|CREATE TEMPORARY TABLES|G
-|root||root|localhost|CREATE TEMPORARY TABLES|G
-|root||springstudent|localhost|CREATE TEMPORARY TABLES|G
-|root||hbstudent|localhost|CREATE USER|G
-|root||maven|localhost|CREATE USER|G
-|root||root|localhost|CREATE USER|G
-|root||springstudent|localhost|CREATE USER|G
-|root||hbstudent|localhost|CREATE VIEW|G
-|root||maven|localhost|CREATE VIEW|G
-|root||root|localhost|CREATE VIEW|G
-|root||springstudent|localhost|CREATE VIEW|G
-|root||hbstudent|localhost|DELETE|G
-|root||maven|localhost|DELETE|G
-|root||root|localhost|DELETE|G
-|root||springstudent|localhost|DELETE|G
-|root||hbstudent|localhost|DROP|G
-|root||maven|localhost|DROP|G
-|root||root|localhost|DROP|G
-|root||springstudent|localhost|DROP|G
-|root||hbstudent|localhost|DROP ROLE|G
-|root||maven|localhost|DROP ROLE|G
-|root||root|localhost|DROP ROLE|G
-|root||springstudent|localhost|DROP ROLE|G
-|root||hbstudent|localhost|ENCRYPTION_KEY_ADMIN|G
-|root||maven|localhost|ENCRYPTION_KEY_ADMIN|G
-|root||root|localhost|ENCRYPTION_KEY_ADMIN|G
-|root||springstudent|localhost|ENCRYPTION_KEY_ADMIN|G
-|root||hbstudent|localhost|EVENT|G
-|root||maven|localhost|EVENT|G
-|root||root|localhost|EVENT|G
-|root||springstudent|localhost|EVENT|G
-|root||hbstudent|localhost|EXECUTE|G
-|root||maven|localhost|EXECUTE|G
-|root||root|localhost|EXECUTE|G
-|root||springstudent|localhost|EXECUTE|G
-|root||hbstudent|localhost|FILE|G
-|root||maven|localhost|FILE|G
-|root||root|localhost|FILE|G
-|root||springstudent|localhost|FILE|G
-|root||hbstudent|localhost|FLUSH_OPTIMIZER_COSTS|G
-|root||maven|localhost|FLUSH_OPTIMIZER_COSTS|G
-|root||root|localhost|FLUSH_OPTIMIZER_COSTS|G
-|root||springstudent|localhost|FLUSH_OPTIMIZER_COSTS|G
-|root||hbstudent|localhost|FLUSH_STATUS|G
-|root||maven|localhost|FLUSH_STATUS|G
-|root||root|localhost|FLUSH_STATUS|G
-|root||springstudent|localhost|FLUSH_STATUS|G
-|root||hbstudent|localhost|FLUSH_TABLES|G
-|root||maven|localhost|FLUSH_TABLES|G
-|root||root|localhost|FLUSH_TABLES|G
-|root||springstudent|localhost|FLUSH_TABLES|G
-|root||hbstudent|localhost|FLUSH_USER_RESOURCES|G
-|root||maven|localhost|FLUSH_USER_RESOURCES|G
-|root||root|localhost|FLUSH_USER_RESOURCES|G
-|root||springstudent|localhost|FLUSH_USER_RESOURCES|G
-|root||hbstudent|localhost|GROUP_REPLICATION_ADMIN|G
-|root||maven|localhost|GROUP_REPLICATION_ADMIN|G
-|root||root|localhost|GROUP_REPLICATION_ADMIN|G
-|root||springstudent|localhost|GROUP_REPLICATION_ADMIN|G
-|root||hbstudent|localhost|GROUP_REPLICATION_STREAM|G
-|root||maven|localhost|GROUP_REPLICATION_STREAM|G
-|root||root|localhost|GROUP_REPLICATION_STREAM|G
-|root||springstudent|localhost|GROUP_REPLICATION_STREAM|G
-|root||hbstudent|localhost|INDEX|G
-|root||maven|localhost|INDEX|G
-|root||root|localhost|INDEX|G
-|root||springstudent|localhost|INDEX|G
-|root||hbstudent|localhost|INNODB_REDO_LOG_ARCHIVE|G
-|root||maven|localhost|INNODB_REDO_LOG_ARCHIVE|G
-|root||root|localhost|INNODB_REDO_LOG_ARCHIVE|G
-|root||springstudent|localhost|INNODB_REDO_LOG_ARCHIVE|G
-|root||hbstudent|localhost|INNODB_REDO_LOG_ENABLE|G
-|root||maven|localhost|INNODB_REDO_LOG_ENABLE|G
-|root||root|localhost|INNODB_REDO_LOG_ENABLE|G
-|root||springstudent|localhost|INNODB_REDO_LOG_ENABLE|G
-|root||hbstudent|localhost|INSERT|G
-|root||maven|localhost|INSERT|G
-|root||root|localhost|INSERT|G
-|root||springstudent|localhost|INSERT|G
-|root||hbstudent|localhost|LOCK TABLES|G
-|root||maven|localhost|LOCK TABLES|G
-|root||root|localhost|LOCK TABLES|G
-|root||springstudent|localhost|LOCK TABLES|G
-|root||hbstudent|localhost|PASSWORDLESS_USER_ADMIN|G
-|root||maven|localhost|PASSWORDLESS_USER_ADMIN|G
-|root||root|localhost|PASSWORDLESS_USER_ADMIN|G
-|root||springstudent|localhost|PASSWORDLESS_USER_ADMIN|G
-|root||hbstudent|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||maven|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||mysql.session|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||root|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||springstudent|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||hbstudent|localhost|PROCESS|G
-|root||maven|localhost|PROCESS|G
-|root||root|localhost|PROCESS|G
-|root||springstudent|localhost|PROCESS|G
-|root||hbstudent|localhost|REFERENCES|G
-|root||maven|localhost|REFERENCES|G
-|root||root|localhost|REFERENCES|G
-|root||springstudent|localhost|REFERENCES|G
-|root||hbstudent|localhost|RELOAD|G
-|root||maven|localhost|RELOAD|G
-|root||root|localhost|RELOAD|G
-|root||springstudent|localhost|RELOAD|G
-|root||hbstudent|localhost|REPLICATION CLIENT|G
-|root||maven|localhost|REPLICATION CLIENT|G
-|root||root|localhost|REPLICATION CLIENT|G
-|root||springstudent|localhost|REPLICATION CLIENT|G
-|root||hbstudent|localhost|REPLICATION SLAVE|G
-|root||maven|localhost|REPLICATION SLAVE|G
-|root||root|localhost|REPLICATION SLAVE|G
-|root||springstudent|localhost|REPLICATION SLAVE|G
-|root||hbstudent|localhost|REPLICATION_APPLIER|G
-|root||maven|localhost|REPLICATION_APPLIER|G
-|root||root|localhost|REPLICATION_APPLIER|G
-|root||springstudent|localhost|REPLICATION_APPLIER|G
-|root||hbstudent|localhost|REPLICATION_SLAVE_ADMIN|G
-|root||maven|localhost|REPLICATION_SLAVE_ADMIN|G
-|root||root|localhost|REPLICATION_SLAVE_ADMIN|G
-|root||springstudent|localhost|REPLICATION_SLAVE_ADMIN|G
-|root||hbstudent|localhost|RESOURCE_GROUP_ADMIN|G
-|root||maven|localhost|RESOURCE_GROUP_ADMIN|G
-|root||root|localhost|RESOURCE_GROUP_ADMIN|G
-|root||springstudent|localhost|RESOURCE_GROUP_ADMIN|G
-|root||hbstudent|localhost|RESOURCE_GROUP_USER|G
-|root||maven|localhost|RESOURCE_GROUP_USER|G
-|root||root|localhost|RESOURCE_GROUP_USER|G
-|root||springstudent|localhost|RESOURCE_GROUP_USER|G
-|root||hbstudent|localhost|ROLE_ADMIN|G
-|root||maven|localhost|ROLE_ADMIN|G
-|root||root|localhost|ROLE_ADMIN|G
-|root||springstudent|localhost|ROLE_ADMIN|G
-|root||hbstudent|localhost|SELECT|G
-|root||maven|localhost|SELECT|G
-|root||mysql.infoschema|localhost|SELECT|G
-|root||root|localhost|SELECT|G
-|root||springstudent|localhost|SELECT|G
-|root||hbstudent|localhost|SENSITIVE_VARIABLES_OBSERVER|G
-|root||maven|localhost|SENSITIVE_VARIABLES_OBSERVER|G
-|root||root|localhost|SENSITIVE_VARIABLES_OBSERVER|G
-|root||springstudent|localhost|SENSITIVE_VARIABLES_OBSERVER|G
-|root||hbstudent|localhost|SERVICE_CONNECTION_ADMIN|G
-|root||maven|localhost|SERVICE_CONNECTION_ADMIN|G
-|root||root|localhost|SERVICE_CONNECTION_ADMIN|G
-|root||springstudent|localhost|SERVICE_CONNECTION_ADMIN|G
-|root||hbstudent|localhost|SESSION_VARIABLES_ADMIN|G
-|root||maven|localhost|SESSION_VARIABLES_ADMIN|G
-|root||mysql.session|localhost|SESSION_VARIABLES_ADMIN|G
-|root||root|localhost|SESSION_VARIABLES_ADMIN|G
-|root||springstudent|localhost|SESSION_VARIABLES_ADMIN|G
-|root||hbstudent|localhost|SET_USER_ID|G
-|root||maven|localhost|SET_USER_ID|G
-|root||root|localhost|SET_USER_ID|G
-|root||springstudent|localhost|SET_USER_ID|G
-|root||hbstudent|localhost|SHOW DATABASES|G
-|root||maven|localhost|SHOW DATABASES|G
-|root||root|localhost|SHOW DATABASES|G
-|root||springstudent|localhost|SHOW DATABASES|G
-|root||hbstudent|localhost|SHOW VIEW|G
-|root||maven|localhost|SHOW VIEW|G
-|root||root|localhost|SHOW VIEW|G
-|root||springstudent|localhost|SHOW VIEW|G
-|root||hbstudent|localhost|SHOW_ROUTINE|G
-|root||maven|localhost|SHOW_ROUTINE|G
-|root||root|localhost|SHOW_ROUTINE|G
-|root||springstudent|localhost|SHOW_ROUTINE|G
-|root||hbstudent|localhost|SHUTDOWN|G
-|root||maven|localhost|SHUTDOWN|G
-|root||mysql.session|localhost|SHUTDOWN|G
-|root||root|localhost|SHUTDOWN|G
-|root||springstudent|localhost|SHUTDOWN|G
-|root||hbstudent|localhost|SUPER|G
-|root||maven|localhost|SUPER|G
-|root||mysql.session|localhost|SUPER|G
-|root||root|localhost|SUPER|G
-|root||springstudent|localhost|SUPER|G
-|root||hbstudent|localhost|SYSTEM_USER|G
-|root||maven|localhost|SYSTEM_USER|G
-|root||mysql.infoschema|localhost|SYSTEM_USER|G
-|root||mysql.session|localhost|SYSTEM_USER|G
-|root||mysql.sys|localhost|SYSTEM_USER|G
-|root||root|localhost|SYSTEM_USER|G
-|root||springstudent|localhost|SYSTEM_USER|G
-|root||hbstudent|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||maven|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||mysql.session|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||root|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||springstudent|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||hbstudent|localhost|TABLE_ENCRYPTION_ADMIN|G
-|root||maven|localhost|TABLE_ENCRYPTION_ADMIN|G
-|root||root|localhost|TABLE_ENCRYPTION_ADMIN|G
-|root||springstudent|localhost|TABLE_ENCRYPTION_ADMIN|G
-|root||hbstudent|localhost|TRIGGER|G
-|root||maven|localhost|TRIGGER|G
-|root||root|localhost|TRIGGER|G
-|root||springstudent|localhost|TRIGGER|G
-|root||hbstudent|localhost|UPDATE|G
-|root||maven|localhost|UPDATE|G
-|root||root|localhost|UPDATE|G
-|root||springstudent|localhost|UPDATE|G
-|root||hbstudent|localhost|XA_RECOVER_ADMIN|G
-|root||maven|localhost|XA_RECOVER_ADMIN|G
-|root||root|localhost|XA_RECOVER_ADMIN|G
-|root||springstudent|localhost|XA_RECOVER_ADMIN|G
-|root||root|localhost|grant option|G
-performance_schema|schema||mysql.session|localhost|SELECT|G
-sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
-      <ServerVersion>8.0.29</ServerVersion>
-    </root>
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.40">
+    <root id="1"/>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>
@@ -1371,16 +1092,14 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="332" parent="299" name="PRIMARY">
-      <ColNames>AccountID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>AccountID</UnderlyingIndexColNames>
     </key>
     <key id="333" parent="299" name="Email">
-      <ColNames>Email</ColNames>
       <UnderlyingIndexName>Email</UnderlyingIndexName>
     </key>
     <key id="334" parent="299" name="Username">
-      <ColNames>Username</ColNames>
       <UnderlyingIndexName>Username</UnderlyingIndexName>
     </key>
     <column id="335" parent="300" name="AddressID">
@@ -1401,12 +1120,11 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Unique>1</Unique>
     </index>
     <key id="338" parent="300" name="PRIMARY">
-      <ColNames>AddressID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>AddressID</UnderlyingIndexColNames>
     </key>
     <key id="339" parent="300" name="AddressName">
-      <ColNames>AddressName</ColNames>
       <UnderlyingIndexName>AddressName</UnderlyingIndexName>
     </key>
     <column id="340" parent="301" name="Answers">
@@ -1441,9 +1159,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="346" parent="301" name="PRIMARY">
-      <ColNames>Answers</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>Answers</UnderlyingIndexColNames>
     </key>
     <column id="347" parent="302" name="CategoryID">
       <AutoIncrement>11</AutoIncrement>
@@ -1463,12 +1181,11 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Unique>1</Unique>
     </index>
     <key id="350" parent="302" name="PRIMARY">
-      <ColNames>CategoryID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>CategoryID</UnderlyingIndexColNames>
     </key>
     <key id="351" parent="302" name="CategoryName">
-      <ColNames>CategoryName</ColNames>
       <UnderlyingIndexName>CategoryName</UnderlyingIndexName>
     </key>
     <column id="352" parent="303" name="DepartmentID">
@@ -1489,12 +1206,11 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Unique>1</Unique>
     </index>
     <key id="355" parent="303" name="PRIMARY">
-      <ColNames>DepartmentID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>DepartmentID</UnderlyingIndexColNames>
     </key>
     <key id="356" parent="303" name="DepartmentName">
-      <ColNames>DepartmentName</ColNames>
       <UnderlyingIndexName>DepartmentName</UnderlyingIndexName>
     </key>
     <column id="357" parent="304" name="DepartmentID">
@@ -1525,9 +1241,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="363" parent="304" name="PRIMARY">
-      <ColNames>DepartmentID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>DepartmentID</UnderlyingIndexColNames>
     </key>
     <column id="364" parent="305" name="AccountID">
       <DataType>tinyint unsigned|0s</DataType>
@@ -1545,9 +1261,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <RefTableName>account</RefTableName>
     </foreign-key>
     <key id="367" parent="305" name="PRIMARY">
-      <ColNames>AccountID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>AccountID</UnderlyingIndexColNames>
     </key>
     <column id="368" parent="306" name="ExamID">
       <AutoIncrement>11</AutoIncrement>
@@ -1606,9 +1322,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="379" parent="306" name="PRIMARY">
-      <ColNames>ExamID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ExamID</UnderlyingIndexColNames>
     </key>
     <column id="380" parent="307" name="ExamID">
       <DataType>tinyint unsigned|0s</DataType>
@@ -1635,10 +1351,10 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="385" parent="307" name="PRIMARY">
-      <ColNames>ExamID
-QuestionID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ExamID
+QuestionID</UnderlyingIndexColNames>
     </key>
     <column id="386" parent="308" name="GroupID">
       <AutoIncrement>11</AutoIncrement>
@@ -1677,12 +1393,11 @@ QuestionID</ColNames>
       <Type>btree</Type>
     </index>
     <key id="393" parent="308" name="PRIMARY">
-      <ColNames>GroupID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>GroupID</UnderlyingIndexColNames>
     </key>
     <key id="394" parent="308" name="GroupName">
-      <ColNames>GroupName</ColNames>
       <UnderlyingIndexName>GroupName</UnderlyingIndexName>
     </key>
     <column id="395" parent="309" name="GroupID">
@@ -1715,10 +1430,10 @@ QuestionID</ColNames>
       <Type>btree</Type>
     </index>
     <key id="401" parent="309" name="PRIMARY">
-      <ColNames>GroupID
-AccountID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>GroupID
+AccountID</UnderlyingIndexColNames>
     </key>
     <column id="402" parent="310" name="AccountID">
       <DataType>tinyint unsigned|0s</DataType>
@@ -1736,9 +1451,9 @@ AccountID</ColNames>
       <RefTableName>account</RefTableName>
     </foreign-key>
     <key id="405" parent="310" name="PRIMARY">
-      <ColNames>AccountID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>AccountID</UnderlyingIndexColNames>
     </key>
     <column id="406" parent="311" name="PositionID">
       <AutoIncrement>4</AutoIncrement>
@@ -1757,12 +1472,11 @@ AccountID</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="409" parent="311" name="PRIMARY">
-      <ColNames>PositionID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>PositionID</UnderlyingIndexColNames>
     </key>
     <key id="410" parent="311" name="PositionName">
-      <ColNames>PositionName</ColNames>
       <UnderlyingIndexName>PositionName</UnderlyingIndexName>
     </key>
     <column id="411" parent="312" name="QuestionID">
@@ -1826,12 +1540,11 @@ AccountID</ColNames>
       <Type>btree</Type>
     </index>
     <key id="423" parent="312" name="PRIMARY">
-      <ColNames>QuestionID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>QuestionID</UnderlyingIndexColNames>
     </key>
     <key id="424" parent="312" name="CreatorID">
-      <ColNames>CreatorID</ColNames>
       <UnderlyingIndexName>CreatorID</UnderlyingIndexName>
     </key>
     <column id="425" parent="313" name="SalaryID">
@@ -1851,12 +1564,11 @@ AccountID</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="428" parent="313" name="PRIMARY">
-      <ColNames>SalaryID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>SalaryID</UnderlyingIndexColNames>
     </key>
     <key id="429" parent="313" name="SalaryName">
-      <ColNames>SalaryName</ColNames>
       <UnderlyingIndexName>SalaryName</UnderlyingIndexName>
     </key>
     <column id="430" parent="314" name="TypeID">
@@ -1876,12 +1588,11 @@ AccountID</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="433" parent="314" name="PRIMARY">
-      <ColNames>TypeID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>TypeID</UnderlyingIndexColNames>
     </key>
     <key id="434" parent="314" name="TypeName">
-      <ColNames>TypeName</ColNames>
       <UnderlyingIndexName>TypeName</UnderlyingIndexName>
     </key>
   </database-model>

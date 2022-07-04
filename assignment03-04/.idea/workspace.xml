@@ -5,70 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cc30635-baa2-49e2-9918-c4753cfd3beb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../assignment01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/DepartmentDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/ExamQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/GroupAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/GroupAccountPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/QuestionCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/QuestionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hai/learning/entity/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database/Data_Lesson4_VTI.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database/SQL_Lesson4_VTI.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hai/learning/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/java/com/hai/learning/assignment05/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/java/com/hai/learning/assignment05/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/java/com/hai/learning/assignment05/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/java/com/hai/learning/assignment05/repository/IDepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/java/com/hai/learning/assignment05/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/java/com/hai/learning/assignment05/service/IDepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/java/com/hai/learning/assignment05/utils/HibernateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment05/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignmentHibernateN/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/assignment0102.eml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/assignment0102.eml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/assignment0102.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/assignment0102.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/a3_ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/a3_ex2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/entity/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/entity/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/src/main/java/com/hai/advanced/a1ex2_a2ex1_a3ex2/entity/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/src/test/java/com/hai/advanced/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/src/test/java/com/hai/advanced/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/assignment01-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/assignment01-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/entity/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/entity/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/exercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/exercise1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/repository/DepartmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/repository/DepartmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/utils/HibernateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/classes/com/hai/advanced/a1ex1/utils/HibernateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/surefire-reports/TEST-com.hai.advanced.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/surefire-reports/TEST-com.hai.advanced.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/surefire-reports/com.hai.advanced.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/surefire-reports/com.hai.advanced.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment01/target/test-classes/com/hai/advanced/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment01/target/test-classes/com/hai/advanced/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorldSpringData/src/main/java/com/hai/learning/helloworldspringdata/controller/DepartmentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorldSpringData/src/main/java/com/hai/learning/helloworldspringdata/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorldSpringData/src/main/java/com/hai/learning/helloworldspringdata/repository/IDepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorldSpringData/src/main/java/com/hai/learning/helloworldspringdata/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorldSpringData/src/main/java/com/hai/learning/helloworldspringdata/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorldSpringData/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/src/main/java/com/example/towersofhanoi/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/src/main/java/com/example/towersofhanoi/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/src/main/java/com/example/towersofhanoi/TowersOfHanoiGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/src/main/java/com/example/towersofhanoi/tower" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TowersOfHanoi/src/main/resources/com/example/towersofhanoi/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07 - Copy.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07/src/main/java/com/hai/learning/assignment07/controller/DepartmentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07/src/main/java/com/hai/learning/assignment07/dto/DepartmentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07/src/main/java/com/hai/learning/assignment07/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07/src/main/java/com/hai/learning/assignment07/repository/IDepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07/src/main/java/com/hai/learning/assignment07/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07/src/main/java/com/hai/learning/assignment07/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment07/src/main/resources/sqlscript/hai_java_advanced_a7_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/Assignment08Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/controller/AccountRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/controller/DepartmentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/dto/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/DepartmentDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/ExamQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/GroupAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/GroupAccountPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/PositionNameConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/QuestionCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/QuestionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/entity/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/form/DepartmentFilterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/form/DepartmentForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/repository/IAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/repository/IDepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/java/com/hai/learning/assignment08/specification/DepartmentSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08/assignment08/src/test/java/com/hai/learning/assignment08/Assignment08ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/controller/DepartmentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/entity/DepartmentTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/repository/IAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/repository/IDepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/java/com/hai/learning/assignment08current/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment08current/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/159235a9-54f0-436e-a502-f420996b5d5f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/159235a9-54f0-436e-a502-f420996b5d5f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment06/src/main/java/com/hai/learning/assignment06/Assignment06Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment06/src/main/java/com/hai/learning/assignment06/Assignment06Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment06/src/main/java/com/hai/learning/assignment06/controller/DepartmentRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment06/src/main/java/com/hai/learning/assignment06/controller/DepartmentRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment06/src/main/java/com/hai/learning/assignment06/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment06/src/main/java/com/hai/learning/assignment06/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment06/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment06/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment06spring2/src/main/java/com/hai/learning/assignment06spring2/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment06spring2/src/main/java/com/hai/learning/assignment06spring2/repository/DepartmentRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +166,9 @@
       <workItem from="1655703682063" duration="1492000" />
       <workItem from="1655826554927" duration="4760000" />
       <workItem from="1655912117824" duration="119000" />
+      <workItem from="1656593709481" duration="977000" />
+      <workItem from="1656782056287" duration="638000" />
+      <workItem from="1656924260855" duration="1217000" />
     </task>
     <servers />
   </component>
