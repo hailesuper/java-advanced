@@ -11,10 +11,11 @@ import java.time.LocalDate;
 public class AccountDTO {
     private short id;
     private String email;
+    private String username;
     private String firstName;
     private String lastName;
     private String departmentName;
     private String positionName;
-//    private Integer salaryName;
+    private String salaryName;
     private LocalDate createDate;
 }

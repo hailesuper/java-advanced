@@ -7,10 +7,10 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
-public class PositionDTO {
+public class SalaryDTO {
     private short id;
     private String name;
-    private List<AccountDTO> accounts;
+    private List<SalaryDTO.AccountDTO> accounts;
 
     @Data
     @NoArgsConstructor

@@ -1,7 +1,11 @@
 package com.hai.learning.assignment08.service;
 
 import com.hai.learning.assignment08.entity.Account;
+import com.hai.learning.assignment08.form.CreateAccountForm;
 import com.hai.learning.assignment08.repository.IAccountRepository;
+import jakarta.transaction.Transactional;
+import org.modelmapper.ModelMapper;
+import org.modelmapper.PropertyMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -14,6 +18,9 @@ import java.util.NoSuchElementException;
 public class AccountService implements IAccountService {
     @Autowired
     private IAccountRepository accountRepository;
+
+    @Autowired
+    private ModelMapper modelMapper;
 
     @Override
     public List<Account> getAllAccounts() {
@@ -37,8 +44,21 @@ public class AccountService implements IAccountService {
         return accountRepository.getByFirstName(name);
     }
 
+    @Transactional
     @Override
-    public void createAccount(Account account) {
+    public void createAccount(CreateAccountForm createAccountForm) {
+        // skip the id field
+        var typeMap = modelMapper.getTypeMap(CreateAccountForm.class, Account.class);
+        if (typeMap == null) {
+            modelMapper.addMappings(new PropertyMap<CreateAccountForm, Account>() {
+                @Override
+                protected void configure() {
+                    skip(destination.getId());
+                }
+            });
+        }
+        // convert Form
+        var account = modelMapper.map(createAccountForm, Account.class);
         accountRepository.save(account);
     }
 
@@ -74,5 +94,16 @@ public class AccountService implements IAccountService {
     @Override
     public boolean isAccountExistsByName(String name) {
         return accountRepository.existByName(name) != null;
+    }
+
+    @Override
+    public boolean isAccountExistsByUsername(String username) {
+        return accountRepository.existByUsername(username) != null;
+    }
+
+
+    @Override
+    public boolean isAccountExistsByEmail(String email) {
+        return accountRepository.existByEmail(email) != null;
     }
 }

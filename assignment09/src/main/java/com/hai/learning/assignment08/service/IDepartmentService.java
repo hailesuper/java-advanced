@@ -10,8 +10,6 @@ import java.util.List;
 public interface IDepartmentService {
 //    Page<Department> getAllDepartments(Pageable pageable, String search);
     Page<Department> getAllDepartments(Pageable pageable, String search, DepartmentFilterForm departmentFilterForm);
-
-
     Department getDepartmentById(short id);
     Department getDepartmentByName(String name);
     void createDepartment(Department department);

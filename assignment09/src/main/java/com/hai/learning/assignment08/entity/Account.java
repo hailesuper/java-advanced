@@ -21,6 +21,9 @@ public class Account {
     @Column(name = "email")
     private String email;
 
+    @Column(name = "username")
+    private String username;
+
     @Column(name = "firstName")
     private String firstName;
 
@@ -34,10 +37,10 @@ public class Account {
     @ManyToOne
     @JoinColumn(name = "positionID")
     Position position;
-//
-//    @ManyToOne
-//    @JoinColumn(name = "salaryID")
-//    Salary salary;
+
+    @ManyToOne
+    @JoinColumn(name = "salaryID")
+    Salary salary;
 
     @Column(name = "createDate")
     @CreationTimestamp

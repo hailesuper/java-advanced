@@ -9,4 +9,11 @@ public interface IAccountRepository extends JpaRepository<Account, Integer> {
 
     @Query(value = "SELECT * FROM account WHERE firstName = ?1", nativeQuery = true)
     Account existByName(String name);
+
+    @Query(value = "SELECT * FROM account WHERE username = ?1", nativeQuery = true)
+    Account existByUsername(String username);
+
+    @Query(value = "SELECT * FROM account WHERE email = ?1", nativeQuery = true)
+    Account existByEmail(String email);
+
 }

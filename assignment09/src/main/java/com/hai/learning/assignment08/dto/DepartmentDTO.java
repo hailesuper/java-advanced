@@ -19,6 +19,7 @@ public class DepartmentDTO {
     @NoArgsConstructor
     static class AccountDTO {
         private short id;
+        private String username;
         private String email;
         private String firstName;
         private String lastName;
