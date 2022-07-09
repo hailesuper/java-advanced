@@ -7,6 +7,7 @@ import com.hai.learning.assignment08.entity.Department;
 import com.hai.learning.assignment08.form.CreateAccountForm;
 import com.hai.learning.assignment08.service.IAccountService;
 import com.hai.learning.assignment08.validation.PageableConstraint;
+import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
@@ -89,6 +90,14 @@ public class AccountRestController {
                     "\ndoesn't exists", HttpStatus.OK);
         }
 
+    }
+
+    // EXCEPTION HANDLING
+    @GetMapping("/exception")
+    public void testException() throws Exception {
+        // ... other logic
+        throw new EntityNotFoundException("... Exception Information");
+        // ... other code
     }
 
 }

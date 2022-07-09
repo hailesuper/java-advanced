@@ -96,11 +96,14 @@ public class DepartmentRestController {
     @GetMapping("/check")
     public ResponseEntity<String> isDepartmentExistsByName(String name) {
         var flagExist = departmentService.isDepartmentExistsByName(name);
+
         if (flagExist) {
-            return new ResponseEntity<>(departmentService.getDepartmentByName(name).toString() +
+            var departmentDTO = modelMapper.map(departmentService.getDepartmentByName(name),
+                    DepartmentDTO.class);
+            return new ResponseEntity<>(departmentDTO +
                     "\nexists", HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(departmentService.getDepartmentByName(name).toString() +
+            return new ResponseEntity<>("Department " + name +
                     "\ndoesn't exists", HttpStatus.OK);
         }
 
@@ -110,7 +113,8 @@ public class DepartmentRestController {
     public ResponseEntity<String> isDepartmentExistsById(@PathVariable short id) {
         var flagExist = departmentService.isDepartmentExistsById(id);
         if (flagExist) {
-            return new ResponseEntity<>(departmentService.getDepartmentById(id).toString() +
+            var departmentDTO = modelMapper.map(departmentService.getDepartmentById(id), DepartmentDTO.class);
+            return new ResponseEntity<>(departmentDTO +
                     "\nexists", HttpStatus.OK);
         } else {
             return new ResponseEntity<>("Department " + id +

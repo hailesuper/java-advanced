@@ -4,12 +4,12 @@ import com.hai.learning.assignment08.entity.Department;
 import com.hai.learning.assignment08.form.DepartmentFilterForm;
 import com.hai.learning.assignment08.repository.IDepartmentRepository;
 import com.hai.learning.assignment08.specification.DepartmentSpecification;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
-import org.springframework.util.StringUtils;
 
 import java.util.NoSuchElementException;
 
@@ -26,7 +26,7 @@ public class DepartmentService implements IDepartmentService {
 
     @Override
     public Department getDepartmentById(short id) {
-        return departmentRepository.findById((int)id).get();
+        return departmentRepository.findById((int) id).get();
     }
 
     @Override
@@ -50,13 +50,12 @@ public class DepartmentService implements IDepartmentService {
     public void updateDepartment(Department department) {
         if (departmentRepository.existsById(department.getId())) {
             var oldDepartment = getDepartmentById((short) department.getId());
-            if (ObjectUtils.isEmpty(department.getName()))
-                department.setName(oldDepartment.getName());
+            if (!StringUtils.isBlank(department.getName()))
+                oldDepartment.setName(department.getName());
 //            if (ObjectUtils.isEmpty(department.getAccounts()))
 //                department.setAccounts(oldDepartment.getAccounts());
             departmentRepository.save(department);
-        }
-        else
+        } else
             throw new NoSuchElementException("Department " + department.getId() + " doesn't exists");
     }
 

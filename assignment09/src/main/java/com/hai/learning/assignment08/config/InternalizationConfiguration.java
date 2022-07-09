@@ -1,4 +1,4 @@
-package com.hai.learning.assignment08.Configuration;
+package com.hai.learning.assignment08.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -22,6 +22,8 @@ public class InternalizationConfiguration implements WebMvcConfigurer {
     public LocaleResolver localeResolver() {
         SessionLocaleResolver sessionLocaleResolver = new SessionLocaleResolver();
         sessionLocaleResolver.setDefaultLocale(new Locale("vi", "VN"));
+//        sessionLocaleResolver.setDefaultLocale(Locale.US);
+
         return sessionLocaleResolver;
     }
 
