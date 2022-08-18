@@ -6,6 +6,8 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface IAccountRepository extends JpaRepository<Account, Integer> {
     Account getByFirstName(String firstName);
+    Account getByUsername(String username);
+
 
     @Query(value = "SELECT * FROM account WHERE firstName = ?1", nativeQuery = true)
     Account existByName(String name);

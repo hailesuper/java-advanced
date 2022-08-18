@@ -5,10 +5,11 @@ import com.hai.learning.assignment08.entity.Department;
 import com.hai.learning.assignment08.form.CreateAccountForm;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.List;
 
-public interface IAccountService {
+public interface IAccountService extends UserDetailsService {
     List<Account> getAllAccounts();
     Page<Account> getAllAccounts(Pageable pageable);
 
@@ -22,5 +23,6 @@ public interface IAccountService {
     boolean isAccountExistsByName(String name);
     boolean isAccountExistsByEmail(String email);
     boolean isAccountExistsByUsername(String username);
+    Account getAccountByUsername(String name);
 
 }

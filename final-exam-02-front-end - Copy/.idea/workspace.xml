@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85a2e67e-a138-4777-9927-1e66c8e60adc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/config/exception/AuthExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/config/security/WebSecutiryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/dto/LoginInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/enumconverter/AccountRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/.idea/EmployeeManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/css/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/css/program.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/html/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/html/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/html/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/html/program.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/html/viewlistaccounts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/js/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment10_frontend/js/program.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/.idea/assignments_10HAI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/Assignment08Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/config/InternalizationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/config/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/config/exception/AuthExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/config/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/config/exception/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/config/security/WebSecutiryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/controller/AccountRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/controller/DepartmentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/controller/PositionRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/controller/SalaryRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/dto/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/dto/DepartmentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/dto/LoginInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/dto/PositionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/dto/SalaryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/DepartmentDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/ExamQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/GroupAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/GroupAccountPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/QuestionCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/QuestionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/entity/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/enumconverter/AccountRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/enumconverter/PositionNameConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/enumconverter/SalaryNameConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/form/CreateAccountForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/form/DepartmentFilterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/form/DepartmentForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/form/PositionForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/repository/IAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/repository/IDepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/repository/IPositionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/repository/ISalaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/IPositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/ISalaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/service/SalaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/specification/DepartmentSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/validation/EmailNotExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/validation/EmailNotExistsValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/validation/PageableConstraint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/validation/PageableValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/validation/UsernameNotExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/java/com/hai/learning/assignment08/validation/UsernameNotExistsValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/resources/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/resources/messages_vi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/main/resources/static/database/hai_java_advanced_a10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10/src/test/java/com/hai/learning/assignment08/Assignment08ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/.idea/EmployeeManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/css/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/css/program.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/html/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/html/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/html/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/html/program.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/html/viewlistaccounts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/js/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI - Copy/assignment10_frontend_old/js/program.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI/.idea/assignments_10HAI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignments_10HAI/assignment10_frontend_old/.idea/EmployeeManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/src/main/java/com/hai/learning/finalexam01/FinalExam01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/src/main/java/com/hai/learning/finalexam01/entity/Accessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/src/main/java/com/hai/learning/finalexam01/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/src/main/java/com/hai/learning/finalexam01/entity/CarMakerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/src/main/java/com/hai/learning/finalexam01/entity/CarPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-01/src/test/java/com/hai/learning/finalexam01/FinalExam01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/css/forbidden.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/css/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/css/program.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/html/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/html/forbidden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/html/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/html/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/html/program.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/html/viewlistgroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/js/program.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02-front-end/js/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/dto/GroupDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/entity/enumconverter/UserRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/form/CreateGroupForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/form/CreateUserForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/form/UpdateGroupNameForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/repository/IGroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/service/IGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-exam-02/src/main/java/com/hai/learning/finalexam02/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment03-04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment10/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/dto/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/dto/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/repository/IAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/repository/IAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment10/src/main/java/com/hai/learning/assignment08/service/IAccountService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CKVbNVKp0Mp1rzuF469seFeUjv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/haiva/OneDrive/Desktop/VTI/java-advanced/assignments/final-exam-02-front-end - Copy&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haiva\OneDrive\Desktop\VTI\java-advanced\assignments\final-exam-02-front-end\html" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85a2e67e-a138-4777-9927-1e66c8e60adc" name="Changes" comment="" />
+      <created>1658551334218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658551334218</updated>
+      <workItem from="1658551335706" duration="1246000" />
+      <workItem from="1658567515864" duration="3639000" />
+      <workItem from="1658573267021" duration="3863000" />
+      <workItem from="1658642342780" duration="7563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

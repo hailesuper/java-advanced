@@ -18,4 +18,5 @@ public class AccountDTO {
     private String positionName;
     private String salaryName;
     private LocalDate createDate;
+    private String role;
 }

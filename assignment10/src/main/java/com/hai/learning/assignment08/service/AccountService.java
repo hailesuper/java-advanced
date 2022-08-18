@@ -9,6 +9,10 @@ import org.modelmapper.PropertyMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.authority.AuthorityUtils;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -43,6 +47,12 @@ public class AccountService implements IAccountService {
     public Account getAccountByName(String name) {
         return accountRepository.getByFirstName(name);
     }
+
+    @Override
+    public Account getAccountByUsername(String name) {
+        return accountRepository.getByUsername(name);
+    }
+
 
     @Transactional
     @Override
@@ -105,5 +115,18 @@ public class AccountService implements IAccountService {
     @Override
     public boolean isAccountExistsByEmail(String email) {
         return accountRepository.existByEmail(email) != null;
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        var account = accountRepository.getByUsername(username);
+
+        if (account == null) {
+            throw new UsernameNotFoundException(username);
+        }
+
+        return new User(account.getUsername(),
+                account.getPassword(),
+                AuthorityUtils.createAuthorityList(account.getRole().toString()));
     }
 }

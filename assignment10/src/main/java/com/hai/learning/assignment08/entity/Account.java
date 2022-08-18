@@ -1,5 +1,6 @@
 package com.hai.learning.assignment08.entity;
 
+import com.hai.learning.assignment08.enumconverter.AccountRoleConverter;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -29,6 +30,15 @@ public class Account {
 
     @Column(name = "lastName")
     private String lastName;
+
+    // AUTH
+    @Column(name = "password")
+    private String password;
+
+    public enum Role {ADMIN, EMPLOYEE, MANAGER}
+    @Column(name = "role")
+    @Convert(converter = AccountRoleConverter.class)
+    private Role role;
 
     @ManyToOne()
     @JoinColumn(name = "departmentID")
